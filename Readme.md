@@ -7,7 +7,7 @@ A simple **Python & Streamlit project** to analyze and visualize student perform
 ## Project Structure
 
 
-student_performation/
+
 ├─ db.py # Script to create and populate the SQLite database
 ├─ plot.py # Streamlit app for visualizing student performance
 ├─ requirements.txt # List of Python dependencies
@@ -30,7 +30,6 @@ student_performation/
 
 
 git clone <your-github-repo-url>
-cd student_performation
 
 Create a virtual environment (optional but recommended)
 
