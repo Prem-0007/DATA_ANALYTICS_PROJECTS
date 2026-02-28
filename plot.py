@@ -19,7 +19,7 @@ stl.dataframe(data)
 stl.subheader("Average Scores")
 
 figure, axes = plt.subplots()
-axes.bar(data["Name"], data["Average"])  # FIXED HERE
+axes.bar(data["Name"], data["Average"]) 
 axes.set_xlabel("Student Name")
 axes.set_ylabel("Average Score")
 axes.set_title("Average Scores of Students")
